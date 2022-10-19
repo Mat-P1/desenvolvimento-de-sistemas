@@ -10,11 +10,11 @@
 
 Vários recursos e conceitos da linguagem Java abordados através de diversas atividades com complexidades e exigências diferentes. Aulas práticas suplementadas com aspectos teóricos e mais abastados dos recursos abordados.
 
-## POO 
-> Atividade 01 a 05
+## POO (Programação Orientada a Objetos)
+> Atividades 01 a 05
 
 - Classes, campos, objetos, instâncias, construtores, modificadores de acesso, métodos, setters e getters.
 
-> Ativiade 06 a 12
+> Atividades 06 a 12
 
 - Associações, agregações, composições, heranças, interfaces e estruturas de dados.
