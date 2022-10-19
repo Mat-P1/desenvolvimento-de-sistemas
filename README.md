@@ -17,4 +17,4 @@ Vários recursos e conceitos da linguagem Java abordados através de diversas at
 
 > Atividades 06 a 12
 
-- Associações, agregações, composições, heranças, interfaces e estruturas de dados.
+- Associações, agregações, composições, heranças, polimorfismo, interfaces, exceções e estruturas de dados.
