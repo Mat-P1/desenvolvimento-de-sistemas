@@ -18,18 +18,12 @@ public class Teste {
         Aluno[] alunos = new Aluno[5];
         double[] notas = new double[4];
 
-        // Instanciação do objeto curso
-
-        Curso curso = new Curso("Java POO", LocalTime.of(8, 30));
-
-        // Instanciação do objeto professor com todos os atributos
+        Curso curso = new Curso("Java POO", LocalTime.of(8, 30)); // Instanciação do objeto curso
 
         Professor professor = new Professor("Davi Saldanha", "Desenvolvimento de Sistemas",
-                "davi@email.com");
+                "davi@email.com"); // Instanciação do objeto professor com todos os atributos
 
         curso.setProfessor(professor); // invocando o atributo professor em Curso para gravar os dados acima
-
-        // Inserindo informações sobre os alunos do curso
 
         for (int i = 0; i < alunos.length; i++) {
             Aluno aluno = new Aluno();
@@ -49,12 +43,10 @@ public class Teste {
                 aluno.setNotas(nota);
             }
             alunos[i] = aluno;
-        }
+        } // Inserindo informações sobre os alunos do curso
 
         curso.setAlunos(alunos); // invocando o atributo aluno em Curso para gravar os dados acima
 
-        // Imprimindo informações
-
-        System.out.print(curso);
+        System.out.print(curso); // Imprimindo informações
     }
 }

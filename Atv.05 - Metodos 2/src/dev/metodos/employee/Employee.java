@@ -1,9 +1,6 @@
 package dev.metodos.employee;
 
 public class Employee {
-
-    // Variáveis de instância
-
     private String primeiroNome, segundoNome;
     private double salarioMensal;
 
@@ -19,9 +16,7 @@ public class Employee {
         }
     }
 
-    // Métodos
-
-    // Getters
+    // Getters e Setters
 
     public String getPrimeiroNome () {
         return this.primeiroNome;
@@ -34,8 +29,6 @@ public class Employee {
     public double getSalarioMensal () {
         return this.salarioMensal;
     }
-
-    // Setters
 
     public void setPrimeiroNome(String primeiroNome){
         this.primeiroNome = primeiroNome;

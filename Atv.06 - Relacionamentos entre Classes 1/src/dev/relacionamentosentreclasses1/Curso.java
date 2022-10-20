@@ -9,16 +9,12 @@ public class Curso {
     private Professor professor;
     private Aluno[] alunos;
 
-    // Construtores
-
     public Curso(String nomeCurso, LocalTime horario) {
         this.nomeCurso = nomeCurso;
         this.horario = horario;
-    }
+    } // Construtor
 
-    // MÉTODOS
-
-    // Getters (Somente como demonstração. Não serão usados nesse exercício)
+    // Getters e Setters (Alguns são somente uma demonstração. Não serão usados nesse exercício)
 
     public String getNomeCurso() {
         return nomeCurso;
@@ -35,8 +31,6 @@ public class Curso {
     public Aluno[] getAlunos() {
         return alunos;
     }
-
-    // Setters
 
     public void setNomeCurso(String nomeCurso) {
         this.nomeCurso = nomeCurso;
@@ -58,5 +52,5 @@ public class Curso {
     public String toString() {
         return String.format("\nCurso: %s\tHorário: %s\n%s\nAlunos\n%s\n", nomeCurso,
                 horario, professor, Arrays.toString(alunos));
-    }
+    } // Método toString para imprimir os valores inseridos nos objetos dessa classe
 }

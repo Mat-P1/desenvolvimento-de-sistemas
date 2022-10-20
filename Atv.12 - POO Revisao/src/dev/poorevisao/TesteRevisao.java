@@ -17,14 +17,10 @@ public class TesteRevisao {
 
     public static void main(String[] args) {
 
-        // Criando os objetos de Bicicleta e Automovel
-
         Bicicleta bicicleta1 = new Bicicleta ("RE-1255", "David Silveira", 2020, 2500, "Profissional");
         Bicicleta bicicleta2 = new Bicicleta ("RE-1490", "Erick Saldanha", 2018, 1800, "Profissional");
         Automovel automovel1 = new Automovel ("RE-5520", "Carlos Henrique", 2015, 50000, "BR-9510556J");
         Automovel automovel2 = new Automovel ("RE-1560", "Josué Pinheiro", 2020, 85000, "BR-8815C132C");
-
-        // Registrando os dados em um Array
 
         CadastroVeiculos cadastro = new CadastroVeiculos();
 
@@ -33,11 +29,7 @@ public class TesteRevisao {
         cadastro.cadastrarVeiculo(automovel1);
         cadastro.cadastrarVeiculo(automovel2);
 
-        // Imprimindo algumas informações do método toString
-
         cadastro.imprimeCadastro();
-
-        // Testando métodos herdados da classe abstrata Veiculo
 
         bicicleta1.checkList();
         bicicleta1.adjust();

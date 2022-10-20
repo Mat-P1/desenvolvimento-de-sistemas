@@ -23,29 +23,20 @@ public class TesteArrayListString {
         ArrayList<String> lista1 = new ArrayList<>();
         ArrayList<String> lista2 = new ArrayList<>();
 
-        // Estrutura de repetição para o usuário inserir os dados
-
         for (int i = 0; i < 10; i++) {
             System.out.printf("Insira uma palavra contendo um ou mais caracteres [%d]: ", i+1);
             String string = input.next();
             lista1.add(string);
-        }
-
-        // Percorrendo a lista1 para verificar a quantidade de caracteres das palavras e adicionando a lista2
+        } // Estrutura de repetição para o usuário inserir os dados desejados
 
         for (int i = 0; i < 10; i++) {
             if(lista1.get(i).length() < 3) {
                 lista2.add(lista1.get(i));
             }
-        }
+        } // Percorrendo a lista1 para verificar a quantidade de caracteres das palavras inseridas e adicionando a lista2
 
-        // Removendo palavras idênticas em lista1
+        lista1.removeAll(lista2); // Removendo palavras idênticas da lista1 que foram adicionadas a lista2
 
-        lista1.removeAll(lista2);
-
-        // Imprimindo o tamanho das listas.
-
-        System.out.printf("---Tamanho das listas---\nLista 1: %s\nLista 2: %d", lista1.size(), lista2.size());
-
+        System.out.printf("---Tamanho das listas---\nLista 1: %s\nLista 2: %d", lista1.size(), lista2.size());  // Imprimindo o tamanho das listas.
     }
 }

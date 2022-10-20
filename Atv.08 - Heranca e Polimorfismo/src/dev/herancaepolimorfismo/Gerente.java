@@ -8,18 +8,12 @@ public class Gerente extends Funcionario {
     public Gerente(String nome, int dia, int mes, int ano, float salario, String area) {
         super(nome, dia, mes, ano, salario);
         this.area = area;
-    }
-
-    // MÉTODOS
-
-    // Calcular imposto
+    } // Construtor
 
     @Override
     public float calcularImposto() {
         return (float) (this.salario * 0.05);
     } // Sobrepõe o método calcularImposto() em Funcionario
-
-    // Imprimir dados
 
     @Override
     public String imprimeDados() {

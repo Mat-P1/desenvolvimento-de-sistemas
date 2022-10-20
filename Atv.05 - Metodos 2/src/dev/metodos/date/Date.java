@@ -1,9 +1,6 @@
 package dev.metodos.date;
 
 public class Date {
-
-    // Variáveis de instância
-
     private int mes, dia, ano;
 
     // Construtor com as variáveis de instância inicializadas
@@ -30,9 +27,7 @@ public class Date {
 
     }
 
-    // Métodos
-
-    // Setters
+    // Getters e Setters
 
     public int getMes() {
         return mes;
@@ -44,8 +39,6 @@ public class Date {
         return ano;
     }
 
-    // Setters
-
     public void setMes(int mes) {
         this.mes = mes;
     }
@@ -56,10 +49,8 @@ public class Date {
         this.ano = ano;
     }
 
-    // Método para exibir mês, dia e ano
-
     public String displayDate() {
         return String.format("%d/%d/%d", this.dia, this.mes, this.ano);
-    }
+    } // Método para exibir mês, dia e ano
 
 }

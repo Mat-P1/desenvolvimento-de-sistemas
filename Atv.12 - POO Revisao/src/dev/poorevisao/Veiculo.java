@@ -12,8 +12,6 @@ public abstract class Veiculo {
         this.valorVeiculo = valorVeiculo;
     }
 
-    // MÉTODOS ABSTRATOS
-
     public abstract void checkList();
 
     public abstract void adjust();

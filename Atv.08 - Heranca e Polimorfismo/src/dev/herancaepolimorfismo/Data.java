@@ -5,15 +5,11 @@ package dev.herancaepolimorfismo;
 public class Data {
     protected int dia, mes, ano;
 
-    // Construtor
-
     public Data(int dia, int mes, int ano) {
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
-    }
-
-    // MÉTODOS
+    }  // Construtor
 
     public String getData () {
         return dia+"/"+mes+"/"+ano;

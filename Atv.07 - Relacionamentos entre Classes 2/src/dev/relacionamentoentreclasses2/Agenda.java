@@ -4,19 +4,13 @@ public class Agenda {
     private String nomeAgenda;
     private Contato[] contatos;
 
-    // Construtores
+    public Agenda() {} // Construtor
 
-    public Agenda() {}
-
-    // MÉTODOS
-
-    // Getters
+    // Getters e Setters
 
     public String getNomeAgenda() {
         return nomeAgenda;
     }
-
-    // Setters
 
     public void setNomeAgenda(String nomeAgenda) {
         this.nomeAgenda = nomeAgenda;

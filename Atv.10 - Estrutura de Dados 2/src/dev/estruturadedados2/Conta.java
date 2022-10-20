@@ -4,14 +4,10 @@ public class Conta implements Comparable<Conta> {
     protected double saldo;
     protected int id;
 
-    // Construtor
-
     public Conta(double saldo, int id) {
         this.saldo = saldo;
         this.id = id;
-    }
-
-    // MÉTODOS
+    } // Construtor
 
     @Override
     public int compareTo(Conta c) {

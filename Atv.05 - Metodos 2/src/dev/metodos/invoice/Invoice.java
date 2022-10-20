@@ -1,27 +1,24 @@
 package dev.metodos.invoice;
 
 public class Invoice {
-
     private String numero, descricao;
     private int quantidadeComprada;
     private double preco;
 
     // Construtor com as variáveis de instância inicializadas
 
-    public Invoice (String numero, String descricao, int quantidadeComprada, double preco) {
+    public Invoice(String numero, String descricao, int quantidadeComprada, double preco) {
         this.numero = numero;
         this.descricao = descricao;
-        if(preco>0){
+        if(preco>0) {
             this.preco = preco;
-        }else{
+        } else {
             this.preco = 0.0;
         }
         this.quantidadeComprada = Math.max(quantidadeComprada, 0);
 }
 
-    // Métodos
-
-    // Getters
+    // Getters e Setters
 
     public String getNumero() {
         return this.numero;
@@ -39,8 +36,6 @@ public class Invoice {
         return this.preco;
     }
 
-    // Setters
-
     public void setNumero(String numero) {
         this.numero = numero;
     }
@@ -57,8 +52,6 @@ public class Invoice {
         this.preco = preco;
     }
 
-    // Método getter com cálculo do valor da fatura
-
     public double getInvoiceAmount() {
         double amount;
             if (this.quantidadeComprada < 0 || this.preco < 0) {
@@ -67,5 +60,5 @@ public class Invoice {
                 amount = this.quantidadeComprada * this.preco;
             }
         return amount;
-    }
+    } // Método getter com cálculo do valor da fatura
 }

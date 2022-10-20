@@ -3,16 +3,13 @@ package dev.relacionamentosentreclasses1;
 public class Professor {
     private String nomeProfessor, departamento, email;
 
-    // Construtores
-
     public Professor(String nomeProfessor, String departamento, String email) {
         this.nomeProfessor = nomeProfessor;
         this.departamento = departamento;
         this.email = email;
-    }
-    // MÉTODOS
+    } // Construtor
 
-    // Getters (Somente como demonstração. Não serão usados nesse exercício)
+    // Getters e Setters (Somente como demonstração. Não serão usados nesse exercício)
 
     public String getNomeProfessor() {
         return nomeProfessor;
@@ -25,8 +22,6 @@ public class Professor {
     public String getEmail() {
         return email;
     }
-
-    // Setters (Somente como demonstração. Não serão usados nesse exercício)
 
     public void setNomeProfessor(String nomeProfessor) {
         this.nomeProfessor = nomeProfessor;
@@ -42,5 +37,5 @@ public class Professor {
 
     public String toString() {
         return String.format("Professor: %s\tDepartamento: %s\tE-mail: %s\n", nomeProfessor, departamento, email);
-    }
+    } // Método toString para imprimir os valores inseridos nos objetos dessa classe
 }

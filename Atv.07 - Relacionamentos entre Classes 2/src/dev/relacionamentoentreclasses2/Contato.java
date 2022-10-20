@@ -3,11 +3,7 @@ package dev.relacionamentoentreclasses2;
 public class Contato {
     private String nomeContato, email, telefone;
 
-    // Construtores
-
-    public Contato() {}
-
-    // MÉTODOS
+    public Contato() {} // Construtor
 
     // Setters
 

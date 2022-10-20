@@ -16,14 +16,10 @@ public class OperacaoTeste {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
 
-        // Criando os objetos Soma, Subtração, Multiplicação e Divisão
-
         Soma soma = new Soma();
         Subtracao subtracao = new Subtracao();
         Multiplicacao multiplicacao = new Multiplicacao();
         Divisao divisao = new Divisao();
-
-        // Criando menu
 
         int valor1, valor2, opcao;
 

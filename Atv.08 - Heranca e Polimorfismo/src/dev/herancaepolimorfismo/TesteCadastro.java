@@ -13,9 +13,7 @@ public class TesteCadastro {
         Funcionario funcionario2 = new Funcionario("José",10,12,1985,2800);
         Gerente gerente1 = new Gerente("Pedro",12,8,1953,3800,"vendas");
 
-        // Criando um novo Cadastro
-
-        CadastroPessoas cadastro = new CadastroPessoas();
+        CadastroPessoas cadastro = new CadastroPessoas(); // Criando um novo Cadastro
 
         // Adicionando Pessoas ao cadastro
 
@@ -25,8 +23,6 @@ public class TesteCadastro {
         cadastro.cadastraPessoa(funcionario2);
         cadastro.cadastraPessoa(gerente1);
 
-        // Visualizando o cadastro completo
-
-        cadastro.imprimeCadastro();
+        cadastro.imprimeCadastro(); // Visualizando o cadastro completo
     }
 }
