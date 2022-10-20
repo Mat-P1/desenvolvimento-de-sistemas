@@ -23,12 +23,12 @@ public class Automovel extends Veiculo implements Imposto {
 
     @Override
     public void adjust() {
-        System.out.printf("\nMarcando veículo %s para ajustes...\nConfirmado!\n", super.registroVeiculo);
+        System.out.printf("\nMarcando o veículo %s para ajustes...\nConfirmado!\n", super.registroVeiculo);
     }
 
     @Override
     public void cleanup() {
-        System.out.printf("\nMarcando veículo %s para limpeza...\nConfirmado!\n", super.registroVeiculo);
+        System.out.printf("\nMarcando o veículo %s para limpeza...\nConfirmado!\n", super.registroVeiculo);
     }
 
     @Override
