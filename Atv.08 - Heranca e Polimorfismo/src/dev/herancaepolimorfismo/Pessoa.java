@@ -3,7 +3,7 @@ package dev.herancaepolimorfismo;
 /* *
  * Superclasse abstrata
  * Superclasse indireta (Funcionario tem uma subclasse chamada Gerente)
- *  Subclasses: Cliente e Funcionario
+ * Subclasses: Cliente e Funcionario
  */
 
 public abstract class Pessoa {
